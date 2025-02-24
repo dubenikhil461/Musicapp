@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="music.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="animation-text"> Welcome to Nikhil's Music App</h1>
+    </header>
+    <section>
+        <aside class="list">
+            <nav>
+                <h1>Music List</h1>
+            </nav>
+            <div class="aside">
+                <h1
+                    style="padding: 1px 10px; text-align:center ; font-size: 2rem; text-decoration: underline; color: aliceblue;">
+                    Songs</h1>
+                <div class="music">
+                    <ul></ul>
+                </div>
+            </div>
+            <div class="listcontain">
+                <div class="song-info">
+                    <h3 class="songname">Song Name</h3>
+                </div>
+                <div class="seekbar-container">
+                    <input type="range" min="0" max="100" value="0" class="seek-bar">
+                    <span class="time-display">0:00 / 0:00</span>
+                </div>
+                <div class="controls">
+                    <button class="prev-btn">⏮</button>
+                    <button class="play-btn">▶</button>
+                    <button class="next-btn">⏭</button>
+                </div>
+            </div>
+
+        </aside>
+        <aside class="images">
+            <nav>
+                <button id="back-btn">🔙</button>
+                <h1>PLAYZONE</h1>
+            </nav>
+            <div class="music-card">
+                <div class="image-container">
+                    <img src="img/angreji-beat.jpg" alt="Song Cover" id="song-cover">
+                    <div class="controls">
+                        <button class="prev-btn">⏮</button>
+                        <button class="play-btn">▶</button>
+                        <button class="next-btn">⏭</button>
+                    </div>
+
+                </div>
+                <div class="song-info">
+                    <h3 class="songname">Song Name</h3>
+                </div>
+                <div class="seekbar-container">
+                    <input type="range" min="0" max="100" value="0" class="seek-bar">
+                    <span class="time-display">0:00 / 0:00</span>
+                </div>
+            </div>
+
+            <footer>
+                <p>&copy; 2025 Nikhil. All rights reserved.</p>
+            </footer>
+
+        </aside>
+    </section>
+</body>
+<script src="music.js"></script>
+
+</html>
